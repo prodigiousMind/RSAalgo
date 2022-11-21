@@ -57,9 +57,9 @@ For calculation of euler's totient function, phi(N) of a number, N seperately, u
 >       In simple terms, `(e.d)mod(phi(n)) == 1`
 > 7. Private Key `(d, n)`, where n is decryption exponent
 > 8. For Encryption,
->       `C = P<sup>e</sup> mod n`
+>       C = P<sup>e</sup> mod n
 > 9. For Decryption,
->        `P = C<sup>d</sup> mod n`
+>        P = C<sup>d</sup> mod n
 
 ## Working of eulertotient.py
 > Case I: If an integer n, is a prime number
