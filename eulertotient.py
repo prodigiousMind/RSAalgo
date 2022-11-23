@@ -110,5 +110,5 @@ if len(sys.argv) == 2 and sys.argv[1].isdigit():
 
 
 else:
-	print("""Help [USAGE]:\npython3 eulertotient.py [INTEGER])""")
+	print("""Help [USAGE]:\npython3 eulertotient.py [INTEGER]""")
 
