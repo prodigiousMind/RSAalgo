@@ -68,8 +68,8 @@ For calculation of euler's totient function, phi(N) of a number, N seperately, u
 > Case II: If product of two prime numbers is equal to integer n, (p * q = n)
 >   `phi(n) = (p - 1) * (q - 1)`
 
-> Case III: If neither of the above case matches, then find all numbers from 1 upto n, whose gcd with n is 1 (gcd(num, n))
->   phi(n) = count of all numbers from above
+> Case III: If neither of the above case matches, then find all numbers from 1 upto n, whose gcd with n is 1 (gcd(num, n)) = 1,
+>   `phi(n) = count of all numbers from above`
 
 ## Working of mi.sh
 > If two numbers (x & n are co-prime) or (n is a prime number, where x mod n != 0, x is not divisible by n) then modular multiplicative inverse can be calculated using the below condition,
