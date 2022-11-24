@@ -72,9 +72,9 @@ For calculation of euler's totient function, phi(N) of a number, N seperately, u
 >   `phi(n) = count of all numbers from above`
 
 ## Working of mi.sh
-> If two numbers (x & n are co-prime) or (n is a prime number, where x mod n != 0, x is not divisible by n) then modular multiplicative inverse can be calculated using the below condition,
+> If two numbers (x & y are co-prime) or (y is a prime number, where x mod y != 0, x is not divisible by y) then modular multiplicative inverse can be calculated using the below condition,
 
->    `(x.mi)mod(phi(n)) == 1`, mi is modular multiplicative inverse
+>    `(x.mi)mod(y) == 1`, mi is modular multiplicative inverse
 
 # For Complete Tutorial (RSA Algorithm)
 https://youtu.be/xT7YYjp2I6w
