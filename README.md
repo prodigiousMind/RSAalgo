@@ -76,6 +76,6 @@ For calculation of euler's totient function, phi(N) of a number, N seperately, u
 
 >    `(x.mi)mod(phi(n)) == 1`, mi is modular multiplicative inverse
 
-# For Complete Tutorial
+# For Complete Tutorial (RSA Algorithm)
 https://youtu.be/xT7YYjp2I6w
 
